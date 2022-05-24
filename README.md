@@ -26,3 +26,4 @@ Ok, the ratios tell us which words are used more often in postive or negative re
 * Right now, 1 is considered neutral, but the absolute value of the postive-to-negative ratios of very postive words is larger than the absolute value of the ratios for the very negative words. So there is no way to directly compare two numbers and see if one word conveys the same magnitude of positive sentiment as another word conveys negative sentiment. So we should center all the values around netural so the absolute value for neutral of the postive-to-negative ratio for a word would indicate how much sentiment (positive or negative) that word conveys.<br>
 * When comparing absolute values it's easier to do that around zero than one. To fix these issues, we'll convert all of our ratios to new values using logarithms.
 <br>
+<br>
