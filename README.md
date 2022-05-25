@@ -32,3 +32,4 @@ If everything worked, now you should see neutral words with values close to zero
 Now running the following cells to see more ratios.<br>
 The first cell displays all the words, ordered by how associated they are with postive reviews. (Your notebook will most likely truncate the output so you won't actually see all the words in the list.)<br>
 The second cell displays the 30 words most associated with negative reviews by reversing the order of the first list and then looking at the first 30 words. (If you want the second cell to display all the words, ordered by how associated they are with negative reviews, you could just write reversed(pos_neg_ratios.most_common()).)
+<br>
