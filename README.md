@@ -36,3 +36,4 @@ The second cell displays the 30 words most associated with negative reviews by r
 
 
 You should continue to see values similar to the earlier ones we checked – neutral words will be close to 0, words will get more positive as their ratios approach and go above 1, and words will get more negative as their ratios approach and go below -1. That's why we decided to use the logs instead of the raw ratios.
+<br>
